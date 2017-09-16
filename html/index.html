@@ -7,6 +7,7 @@
 	<meta name="description" content="Twitch Emote Stats">
 	<meta name="author" content="lacee666">
 	<link rel="stylesheet" href="../css/styles.css" type="text/css">
+	<script src="../js/scripts.js"></script>
 	<!--[if lt IE 9]>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
 	<![endif]-->
@@ -16,10 +17,59 @@
 	<header>
 		<h1 align="center">TWITCH EMOTE STATS</h1>
 	</header>
-	<div class="main">
-		<p>Stats</p>
-		<p>Stats</p>
+	
+	<div class="chatWindows">
+		
+		<div class="chatWindow1">
+			<div class="inputWindow">
+				<form>
+					<p>1st Channel name:</p>
+					<input type="text" id="channelName1"><br/>
+					<input type="button" id="channelNameButton" height="200" width="600" onClick="reloadChat('chatFrame1', 'channelName1');">
+				</form>
+			</div>
+			<iframe name="chatFrame" frameborder="1"
+				scrolling="no"
+				id="chatFrame1"
+				src= "http://twitch.tv/lirik/chat";
+				height="700"
+				width="500">
+			</iframe>
+			
+		</div>
+		<div class="chatWindow2">
+			<div class="inputWindow">
+				<form>
+					<p>2nd Channel name:</p>
+					<input type="text" id="channelName2"><br/>
+					<input type="button" id="channelNameButton" height="200" width="600" onClick="reloadChat('chatFrame2', 'channelName2');">
+				</form>
+			</div>
+			<iframe name="chatFrame" frameborder="1"
+				scrolling="no"
+				id="chatFrame2"
+				src= "http://twitch.tv/lirik/chat";
+				height="700"
+				width="500">
+			</iframe>
+		</div>
+		<div class="chatWindow3">
+			<div class="inputWindow">
+				<form>
+					<p>3rd Channel name:</p>
+					<input type="text" id="channelName3"><br/>
+					<input type="button" id="channelNameButton" height="200" width="600" onClick="reloadChat('chatFrame3', 'channelName3');">
+				</form>
+			</div>
+			<iframe name="chatFrame" frameborder="1"
+				scrolling="no"
+				id="chatFrame3"
+				src= "http://twitch.tv/lirik/chat";
+				height="700"
+				width="500">
+			</iframe>
+		</div>
 	</div>
-	<script src="../js/scripts.js"></script>
+	
 </body>
 </html>

@@ -2,6 +2,19 @@ header{
 	background-color: yellow;
 	
 }
-main{
-	background-color: red;
+#channelName1, #channelName2, #channelName3{
+	width: 146px;
+	height: 20px;
 }
+#channelNameButton{
+	width: 150px;
+	height: 25px;
+}
+.inputs{
+	border: solid green 1px;
+}
+.chatWindows{
+	border: solid red 1px;
+	display: flex;
+}
+
