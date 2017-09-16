@@ -9,11 +9,17 @@ header{
 	width: 150px;
 	height: 25px;
 }
+ul{
+	background-color: #d5e1df;
+	text-align: center;
+	
+}
 li{
 	border-width:5px;  
     border-style:groove;
 	display: inline-block;
 	text-align:center;
+	background-color: white;
 }
 .inputWindow{
 
