@@ -1,6 +1,5 @@
 header{
-	background-color: yellow;
-	
+	background-color: #d5e1df;
 }
 #channelName1, #channelName2, #channelName3{
 	width: 146px;
@@ -10,11 +9,24 @@ header{
 	width: 150px;
 	height: 25px;
 }
-.inputs{
-	border: solid green 1px;
+li{
+	border-width:5px;  
+    border-style:groove;
+	display: inline-block;
+	text-align:center;
+}
+.inputWindow{
+
+	align: center;
 }
 .chatWindows{
-	border: solid red 1px;
-	display: flex;
+	border-width:5px;  
+    border-style:groove;
+	display: inline-block;
 }
-
+.chatWindow1, .chatWindow2, .chatWindow3{
+	width: 600px;
+	display: inline-block;
+	text-align:center;
+	background-color: #d5e1df;
+}
